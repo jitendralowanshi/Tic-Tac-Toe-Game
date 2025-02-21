@@ -4,8 +4,12 @@
 }
 
 body {
-    background-color: #4C585B;
+    /* background-color: #4C585B; */
+    background-image: url("image1.avif");
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    
 }
 
 
@@ -15,6 +19,7 @@ body {
     margin-top: 30px;
 
 }
+
 .new-btn {
     margin-top: 20px;
     height: 30px;
@@ -33,20 +38,17 @@ body {
 
 .hide {
     display: none;
-}
+}   
 
-main h3 {
-    margin-top: 30px;
+.body-back h3 {
     color: white;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
 .container {
+    position: relative;
+    top: 100px;
     /* margin-top: 100px; */
     height: 100%;
     width: 100%;
@@ -64,7 +66,7 @@ main h3 {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .box {
@@ -72,14 +74,16 @@ main h3 {
     width: 75px;
     border-radius: 10px;
     border: none;
-    color: red;
+    color: rgb(0, 255, 42);
     font-size: 8vmin;
     background-color: black;
-    cursor: pointer;
+    cursor: pointer; 
+    box-shadow: 0px 0px 10px 1px white;
 }
 
 .reset-btn button {
-    margin-top: 20px;
+    /* position: relative; */
+    margin-top: 120px;
     height: 30px;
     width: 150px;
     border-radius: 10px;
@@ -91,5 +95,15 @@ main h3 {
     /* color: blue; */
 }
 
+.developer-name {
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+    color: #FF9D23;
+}
+
+.body-back {
+    background-color: rgba(0, 0, 0, 0.639);
+}
 
 
