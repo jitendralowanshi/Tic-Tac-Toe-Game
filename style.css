@@ -105,8 +105,8 @@ body {
 .reset-btn p {
     color: #EFB036;
     position: relative;
-    top: 40px;
-    background-color: rgba(0, 0, 0, 0.413);
+    top: 80px;
+    background-color: rgb(0, 0, 0);
     height: 35px;
     /* border-top: 0.1px solid white; */
     padding-top: 15px;
