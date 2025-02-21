@@ -43,12 +43,12 @@ body {
 .body-back h3 {
     color: white;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 .container {
     position: relative;
-    top: 100px;
+    top: 50px;
     /* margin-top: 100px; */
     height: 100%;
     width: 100%;
@@ -61,7 +61,7 @@ body {
 .game {
     /* background-color: red;    */
     height: 300px;
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -82,28 +82,37 @@ body {
 }
 
 .reset-btn button {
-    /* position: relative; */
-    margin-top: 120px;
+    margin-top: 70px;
     height: 30px;
     width: 150px;
     border-radius: 10px;
     border: none;
     font-weight: bolder;
     background-color: peachpuff;
-    /* margin-top: 20px; */
     cursor: pointer;
-    /* color: blue; */
 }
 
 .developer-name {
-    padding-top: 10px;
+    position: absolute;
     font-style: italic;
     font-size: 15px;
-    color: #FF9D23;
+    margin-bottom: 20px;
 }
 
 .body-back {
     background-color: rgba(0, 0, 0, 0.639);
+}
+.reset-btn p {
+    color: #EFB036;
+    position: relative;
+    top: 40px;
+    background-color: rgba(0, 0, 0, 0.413);
+    height: 35px;
+    /* border-top: 0.1px solid white; */
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 
