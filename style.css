@@ -4,10 +4,41 @@
 }
 
 body {
-    background-color: #5D8736;
+    background-color: #4C585B;
     text-align: center;
 }
 
+
+.msg-container {
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 30px;
+
+}
+.new-btn {
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    background-color: peachpuff;
+    cursor: pointer;
+}
+
+.msg {
+    color: #FF9D23;
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+main h3 {
+    margin-top: 30px;
+    color: white;
+}
 
 .flex {
     display: flex;
@@ -16,7 +47,7 @@ body {
 }
 
 .container {
-
+    /* margin-top: 100px; */
     height: 100%;
     width: 100%;
     /* background-color: blue; */
@@ -48,40 +79,17 @@ body {
 }
 
 .reset-btn button {
+    margin-top: 20px;
     height: 30px;
     width: 150px;
     border-radius: 10px;
     border: none;
-    color: blue;
     font-weight: bolder;
     background-color: peachpuff;
     /* margin-top: 20px; */
     cursor: pointer;
+    /* color: blue; */
 }
 
-.msg-container {
-    height: 100px;
-    /* background-color: red; */
-    margin-top: 10px;
-
-}
-.new-btn {
-    height: 30px;
-    width: 150px;
-    border-radius: 10px;
-    border: none;
-    font-weight: bolder;
-    background-color: peachpuff;
-    cursor: pointer;
-}
-
-.msg {
-    color: blue;
-    font-size: 25px;
-}
-
-.hide {
-    display: none;
-}
 
 
